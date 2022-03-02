@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2022_03_02_112318) do
     t.integer "number_of_guests"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "picture_url"
   end
 
 end
